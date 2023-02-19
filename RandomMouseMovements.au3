@@ -9,10 +9,10 @@ While 1
     $x = Random(0, $width, 1)
     $y = Random(0, $height, 1)
     MouseMove($x, $y)
-    Sleep(100)
+    Sleep(100000)
 WEnd
 
 Func DoExit()
-    MsgBox(0, "Déplacements de souris", "Terminé")
+    MsgBox(0, "DÃ©placements de souris", "TerminÃ©")
     Exit 0
 EndFunc
